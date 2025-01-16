@@ -1,2 +1,3 @@
 # sorting-algorithm
-aWIPWIPWI
+
+Project to help me learn Big O and algorithm efficency

@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: beige;
+}
+
+canvas {
+  display: block;
+}
+
+#sidebar {
+  width: 100%;
+  height: 93%;
+  margin: 0.5vw;
+  padding: 1vw;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#sidebar h1 {
+  width: 17.5vw;
+  margin: auto;
+}
