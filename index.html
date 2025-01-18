@@ -9,12 +9,24 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <script src="libraries/p5.min.js"></script>
-    <script src="libraries/p5.sound.min.js"></script>
   </head>
 
   <body>
     <div id="sidebar">
       <h1>Options</h1>
+      <span id="isSortedElem">Sorted?</span><br>
+      <button onclick="desort()">De-sort</button> <br>
+      <br>
+      <label for="sort-option">Sorting Type:</label> <br>
+        <select name="sort-type" id="sort-select">
+          <option value="linear">Linear (O)n</option>
+          <option value="logarithmic">Logarithmic O(log n)</option>
+          <option value="quadratic">Quadratic O(n²)</option>
+          <option value="random">Exponetial </option>
+          <option value="exponetial">Exponetial (Bogosort) O(2ⁿ)</option>
+        </select> <br>
+        <br>
+        <button id="sortbutton" onclick="sortCanvas()">Sort</button> <br>
     </div>
     <script src="sketch.js"></script>
   </body>
